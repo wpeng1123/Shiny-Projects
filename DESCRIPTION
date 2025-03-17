@@ -1,0 +1,21 @@
+Package: SafetyNarrativeGenerator
+Title: Safety Narrative Generator for Clinical Trials
+Version: 0.1.0
+Authors@R: 
+    person("Ginny", "Peng", , "pengvirginia@gmail.com", role = c("aut", "cre"))
+Description: A Shiny application for generating standardized safety narratives 
+    from clinical trial data. Features include data import, customizable templates,
+    batch processing, and interactive visualizations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    shiny,
+    ggplot2,
+    DT,
+    dplyr,
+    tidyr,
+    bslib,
+    devtools,
+    readxl 
